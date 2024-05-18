@@ -7,12 +7,8 @@ planets fields
 5.radius
 """
 import os
-from project import ioput, file, dell, search, sort
+from project import ioput, file, dell, search, sort, edit
 mainlist = []
-
-
-def editplanets():
-    pass
 
 
 mmenu = {
@@ -25,7 +21,7 @@ mmenu = {
     6: file.saveplanets,
     7: file.loadpalnets,
     8: search.searchplanets,
-    9: editplanets,
+    9: edit.editplanets,
     10: sort.sortplanets
 }
 
