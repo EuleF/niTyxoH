@@ -41,7 +41,7 @@ def sortplanets(mainlist):
     OutputOfMenu()   
     while(True):
         number = int(input("Enter your choice: "))
-        if (number <= 5):
+        if (number <= 5 and number > 0):
             while(True):
                 side = int(input("Type in how you want to sort (1 min->max;2 max->min): "))
                 if side == 1:
