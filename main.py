@@ -26,7 +26,7 @@ mmenu = {
     7: file.loadpalnets,
     8: search.searchplanets,
     9: editplanets,
-    10: sort.sortpalnets
+    10: sort.sortplanets
 }
 
 
