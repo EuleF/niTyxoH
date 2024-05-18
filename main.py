@@ -7,15 +7,11 @@ planets fields
 5.radius
 """
 import os
-from project import ioput, file, dell, search
+from project import ioput, file, dell, search, sort
 mainlist = []
 
 
 def editplanets():
-    pass
-
-
-def sortpalnets():
     pass
 
 
@@ -30,7 +26,7 @@ mmenu = {
     7: file.loadpalnets,
     8: search.searchplanets,
     9: editplanets,
-    10: sortpalnets
+    10: sort.sortpalnets
 }
 
 
