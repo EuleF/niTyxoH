@@ -40,10 +40,10 @@ def sortplanets(mainlist):
     os.system('cls')
     OutputOfMenu()   
     while(True):
-        number = int(input())
+        number = int(input("Enter your choice: "))
         if (number <= 5):
             while(True):
-                side = int(input("Type in how you want to sort (1 min->max;2 max->min)"))
+                side = int(input("Type in how you want to sort (1 min->max;2 max->min): "))
                 if side == 1:
                     sort_list = sort_min_To_max(mainlist, number)
                     mainlist.clear()

@@ -1,3 +1,6 @@
+import os
+
+
 def removeplanet(mainlist):
     os.system('cls')
     if len(mainlist) == 0:
