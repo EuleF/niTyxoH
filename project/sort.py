@@ -3,7 +3,7 @@ import os
 
 def sort_min_To_max(mainlist,field):
     os.system("cls")
-    if len(mainlist) <= 1:
+    if len(mainlist) < 1:
         return mainlist
     else:
         q = mainlist[0]
@@ -21,7 +21,7 @@ def sort_min_To_max(mainlist,field):
 
 
 def sort_max_To_min(mainlist, field):
-    if len(mainlist) <= 1:
+    if len(mainlist) < 1:
         return mainlist
     else:
         q = mainlist[0]
