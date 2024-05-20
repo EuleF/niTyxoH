@@ -45,11 +45,14 @@ def menu():
         while True:
             try:
                 nummenu = int(input("Enter your choice: "))
+                os.system('cls')
                 if nummenu in mmenu:
                     mmenu[nummenu](mainlist)
                 break
             except ValueError:
+                os.system('cls')
                 print("Invalid input")
+                menu()
 
 
 os.system('cls')
