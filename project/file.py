@@ -22,7 +22,10 @@ def loadpalnets(mainlist):
             mainlist.append([])
             i += 1
             counter = 0
-        mainlist[i].append(line.rstrip('\n'))
+        if counter < 2:
+            mainlist[i].append(line.rstrip('\n'))
+        else:
+            mainlist[i].append(float(line.rstrip('\n')))
         counter += 1
     file.close()
     print("Data loaded")
