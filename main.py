@@ -7,7 +7,7 @@ planets fields
 5.radius
 """
 import os
-from project import ioput, file, dell, search, sort, edit
+from project import ioput, file, dell, search, sort, edit, filtr
 mainlist = []
 
 
@@ -22,7 +22,8 @@ mmenu = {
     7: file.loadpalnets,
     8: search.searchplanets,
     9: edit.editplanets,
-    10: sort.sortplanets
+    10: sort.sortplanets,
+    11: filtr.filtrationplanets
 }
 
 
@@ -38,7 +39,8 @@ def menu():
               "7. Load saved planets\n"
               "8. Search planets\n"
               "9. Edit planets\n"
-              "10. Sort planets\n")
+              "10. Sort planets\n"
+              "11. Filter planets\n")
 
         while True:
             try:
